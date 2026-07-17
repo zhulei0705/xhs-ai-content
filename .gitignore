@@ -1,0 +1,29 @@
+# Java
+backend/target/
+*.class
+*.log
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Local secrets and runtime data
+.env
+.env.*
+!.env.example
+backend/src/main/resources/application-local.yml
+logs/
+
+# Codex working directories
+.agents/
+.codex/
+work/
+outputs/
